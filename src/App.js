@@ -1,6 +1,6 @@
 import CharacterList from "./components/CharacterList/CharacterList";
 import image from './assets/banner.jpg'
-import './app.css'
+import './App.css'
 
 
 function App() {
