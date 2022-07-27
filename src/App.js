@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import CharacterList from "./components/CharacterList/CharacterList";
+import image from './assets/banner.jpg'
+import './app.css'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">
+        <h1>Breaking Bad API</h1>
       </header>
+        <div className="banner">
+          <img src={image}/>
+        </div>
+      <CharacterList/>
     </div>
   );
 }
